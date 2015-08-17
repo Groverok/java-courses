@@ -22,7 +22,7 @@ public class Calculate {
 			del = first / second;
 			System.out.println("del " + del);
 		} else {
-			System.out.println("На ноль делить нельзя!");//inache ne delim
+			System.out.println("Na nol' delit nelzia!");//inache ne delim
 		}
 
 		int stepen = first;
