@@ -1,5 +1,5 @@
 public class Calculate {
-	static int stepen = 1; // тут еклипс попросил статический метод
+	static int stepen = 1; //tut eclipse poprosil static metod(ne zmaiu pochemu)
 
 	public static void main(String[] args) {
 		System.out.println("Calculate ...");
@@ -17,17 +17,17 @@ public class Calculate {
 		System.out.println("umn " + umn);
 
 		int del;
-		if (second != 0) { // если второе число не равно нулю то делим как
-							// обычно
+		if (second != 0) { //esli vtoroe chislo ne ravno nol to delim kak obychno
+							
 			del = first / second;
 			System.out.println("del " + del);
 		} else {
-			System.out.println("На ноль делить нельзя!");// иначе не делим
+			System.out.println("На ноль делить нельзя!");//inache ne delim
 		}
 
 		int stepen = first;
 		for (int i = 0; i < second; i++)
-			// не совсем понял как возводить в степень подсмотрел у других
+			//ne sovsem ponial kak vozvodit v stepen(podsmotrel u drugih)
 			stepen = stepen * first;
 		System.out.println("stepen " + stepen);
 	}
